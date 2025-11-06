@@ -5,20 +5,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class CategoryResponseRest extends ResponseRest{
-    private CategoryResponse categoryResponseRest = new CategoryResponse();
-	
-	
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	
-	
+public class CategoryResponseRest extends ResponseRest {
+    // ✅ solo una propiedad, con el nombre correcto
+    private CategoryResponse categoryResponse = new CategoryResponse();
 }
+    
+    
+    
+    
+  
